@@ -13,10 +13,14 @@ const Navbar = () => {
     <div className="bg-white text-gray-800 shadow-md">
       <nav className="container mx-auto px-4 py-3">
         <ul className="flex items-center justify-between">
-          <div className="flex space-x-6">
-            <li className="hover:text-purple-600 cursor-pointer font-medium">Home</li>
-            <li className="hover:text-purple-600 cursor-pointer font-medium">About</li>
-            <li className="hover:text-purple-600 cursor-pointer font-medium">Contact</li>
+          <div className="flex items-center space-x-6">
+            <div className="text-2xl font-extrabold text-black tracking-tight">
+              Chatteroo
+              <span className="text-black text-sm ml-1">●</span>
+            </div>
+            <li className=" cursor-pointer font-medium">Home</li>
+            <li className=" cursor-pointer font-medium">About</li>
+            <li className=" cursor-pointer font-medium">Contact</li>
           </div>
           <div className="flex items-center space-x-4">
             <SignedOut>
@@ -32,7 +36,7 @@ const Navbar = () => {
               </SignUpButton>
             </SignedOut>
             <SignedIn>
-              <UserButton afterSignOutUrl="/" />
+              <UserButton/>
             </SignedIn>
           </div>
         </ul>
