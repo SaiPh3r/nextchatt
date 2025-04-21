@@ -1,10 +1,10 @@
-import React from 'react'
+import CometChatBuilderWrapper from "../CometChat/CometChatNoSSR/CometChatBuilderWrapper";
 
-
-const page = () => {
+export default function Home() {
   return (
-    <div>page</div>
-  )
+    <>
+      {/* Other components or content */}
+      <CometChatBuilderWrapper />
+    </>
+  );
 }
-
-export default page

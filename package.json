@@ -10,6 +10,9 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^6.16.0",
+    "@cometchat/calls-sdk-javascript": "^4.1.0",
+    "@cometchat/chat-sdk-javascript": "^4.0.11",
+    "@cometchat/chat-uikit-react": "^6.0.3",
     "next": "15.3.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
