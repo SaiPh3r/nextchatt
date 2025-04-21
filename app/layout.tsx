@@ -9,6 +9,10 @@ import {
   SignedOut,
   UserButton,
 } from '@clerk/nextjs'
+import "../style/index.css";
+import 'stream-chat-react/dist/css/v2/index.css';
+
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
